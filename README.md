@@ -1,5 +1,4 @@
 # Deepfake_detection
-# Deepfake Detection
 
 This project is a deep learning pipeline for detecting deepfake videos using PyTorch. It includes preprocessing, training, and evaluation scripts, and leverages a ResNeXt backbone with LSTM for temporal modeling.
 
@@ -63,6 +62,10 @@ Evaluate the trained model:
 python eval.py
 ```
 This will print metrics and show confusion matrix and ROC curve plots.
+
+These are the comparison with other model architectures trained on the same dataset
+
+![Screenshot 2025-05-28 011025](https://github.com/user-attachments/assets/034b07fb-3fbd-48cd-a9cd-662cad39e0e6)
 
 ## Notes
 - The preprocessing script uses ESRGAN for super-resolution. Make sure the ESRGAN model weights and code are available as referenced in `preprocess.py`.
