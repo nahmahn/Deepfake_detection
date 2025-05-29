@@ -1,0 +1,14 @@
+# Core dependencies for DeepfakeModelv4(Best)
+torch
+torchvision
+scikit-learn
+tqdm
+numpy
+pillow
+facenet-pytorch
+opencv-python
+matplotlib
+seaborn
+
+# If using ESRGAN for super-resolution, ensure you have the ESRGAN code and RRDBNet_arch.py available.
+# You may need to install or clone ESRGAN separately if not included in this project. 
