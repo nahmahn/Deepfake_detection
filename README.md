@@ -1,4 +1,3 @@
-# Deepfake_detection
 # Deepfake Detection
 
 This project is a deep learning pipeline for detecting deepfake videos using PyTorch. It includes preprocessing, training, and evaluation scripts, and leverages a ResNeXt backbone with LSTM for temporal modeling.<br />
