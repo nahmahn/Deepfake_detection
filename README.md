@@ -1,9 +1,8 @@
-# Deepfake_detection
 # Deepfake Detection
 
 This project is a deep learning pipeline for detecting deepfake videos using PyTorch. It includes preprocessing, training, and evaluation scripts, and leverages a ResNeXt backbone with LSTM for temporal modeling.<br />
 [Dataset Link](https://drive.google.com/file/d/1DKOkBIAy7HyP91N34mj1E0FFu7sqdKR_/view)<br />
-[Model](https://drive.google.com/file/d/1qz-RxRYeFx-lbhIa9Ht8VWYjYLD6uaA5/view?usp=drive_link)
+[Download the .pth file for the Model4 from here](https://drive.google.com/file/d/1qz-RxRYeFx-lbhIa9Ht8VWYjYLD6uaA5/view?usp=drive_link)
 
 ## Features
 - Face extraction and super-resolution preprocessing
@@ -14,15 +13,13 @@ This project is a deep learning pipeline for detecting deepfake videos using PyT
 
 ## Directory Structure
 ```
-Deepfake_final/
+DeepfakeModelv4/
 ├── best_model.pth         # Trained model weights
 ├── dataset.py             # Custom dataset class
 ├── eval.py                # Evaluation script
 ├── model.py               # Model definition
 ├── preprocess.py          # Preprocessing (face extraction, super-resolution)
-├── train.py               # Training script
-├── README.md              # Project documentation
-├── .gitignore             # Git ignore file
+├── train.py               # Training script          
 └── __init__.py            # Package marker
 ```
 
