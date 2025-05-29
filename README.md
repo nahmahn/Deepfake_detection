@@ -14,15 +14,13 @@ This project is a deep learning pipeline for detecting deepfake videos using PyT
 
 ## Directory Structure
 ```
-Deepfake_final/
+DeepfakeModelv4/
 ├── best_model.pth         # Trained model weights
 ├── dataset.py             # Custom dataset class
 ├── eval.py                # Evaluation script
 ├── model.py               # Model definition
 ├── preprocess.py          # Preprocessing (face extraction, super-resolution)
-├── train.py               # Training script
-├── README.md              # Project documentation
-├── .gitignore             # Git ignore file
+├── train.py               # Training script          
 └── __init__.py            # Package marker
 ```
 
